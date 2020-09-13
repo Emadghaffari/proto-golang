@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+message MyMessage {
+    int32 id = 1;
+    string first_name = 2;
+    bool is_validated = 3;
+    
+    // some_array[]
+    repeated string some_array = 4;
+}
