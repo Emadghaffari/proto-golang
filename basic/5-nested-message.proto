@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+message MyMessage {
+    int32 id = 1;
+    string first_name = 2;
+    bool is_validated = 3;
+    
+    // some_array[]
+    repeated string some_array = 4;
+
+    // colors enum
+    enum Colors {
+        RED = 1;
+        GREEN = 2;
+        ORANGE = 3;
+    }
+    Colors color = 5;
+
+    // date
+    message MyDate {
+        int32 year = 1;
+        int32 month = 2;
+        int32 day = 3;
+    }
+    MyDate date = 5;
+}
+
