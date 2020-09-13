@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+// full path for import proto file
+import "/workspaces/Golang/proto/2-basic/2-packages/date.proto";
+
+package person;
+
+message Person {
+    int32 id = 1;
+    string first_name = 2;
+    bool is_validated = 3;
+
+    // person date
+    my.date.MyDate date = 5;
+}
