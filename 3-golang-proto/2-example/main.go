@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	PersonDB "github.com/Emadghaffari/proto-golang/4-golang-proto/2-example/tutorial"
+	PersonDB "github.com/Emadghaffari/proto-golang/3-golang-proto/2-example/tutorial"
 )
 
 func main() {

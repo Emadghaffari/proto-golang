@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	Tutorial "github.com/Emadghaffari/proto-golang/4-golang-proto/1-example/tutorial"
+	Tutorial "github.com/Emadghaffari/proto-golang/3-golang-proto/1-example/tutorial"
 )
 
 func main() {
